@@ -10,14 +10,14 @@ The primary goal of this project is to explain SQL Injection (one of the OWASP T
 
 ## 🚀 Quick Links
 
-- [All-in-One Burp Suite List](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/burp-intruder-payloads.txt)
-- [MySQL Payloads](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/mysql-payloads.txt)
-- [PostgreSQL Payloads](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/postgresql-payloads.txt)
-- [MSSQL Payloads](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/mssql-payloads.txt)
-- [SQLite Payloads](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/sqlite-payloads.txt)
-- [Oracle Payloads](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/oracle-payloads.txt)
-- [Vulnerable Lab (Docker)](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/lab/)
-- [Payload Generator Script](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/scripts/generator.py)
+- [All-in-One Burp Suite List](burp-intruder-payloads.txt)
+- [MySQL Payloads](mysql-payloads.txt)
+- [PostgreSQL Payloads](postgresql-payloads.txt)
+- [MSSQL Payloads](mssql-payloads.txt)
+- [SQLite Payloads](sqlite-payloads.txt)
+- [Oracle Payloads](oracle-payloads.txt)
+- [Vulnerable Lab (Docker)](lab/)
+- [Payload Generator Script](scripts/generator.py)
 
 ## What is SQL Injection?
 
@@ -860,7 +860,7 @@ db.Query("SELECT name FROM users WHERE id = ?", id)
 
 We have prepared an optimized payload list to help you achieve more effective results in security tests (especially when using Burp Suite Intruder). You can load this list directly into the "Payloads" tab of the Intruder.
 
-- **Payload List**: [burp-intruder-payloads.txt](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/burp-intruder-payloads.txt)
+- **Payload List**: [burp-intruder-payloads.txt](burp-intruder-payloads.txt)
 
 ### How to Use?
 
@@ -869,7 +869,7 @@ We have prepared an optimized payload list to help you achieve more effective re
 3. In the **Positions** tab, select the parameters you want to test for SQL injection.
 4. Go to the **Payloads** tab.
 5. Select `Simple list` as the `Payload type`.
-6. In the `Payload Options` section, click the `Load...` button and select the [burp-intruder-payloads.txt](file:///Users/ismailtasdelen/Documents/GitHub/sql-injection-payload-list/burp-intruder-payloads.txt) file, or copy and paste the list above.
+6. In the `Payload Options` section, click the `Load...` button and select the [burp-intruder-payloads.txt](burp-intruder-payloads.txt) file, or copy and paste the list above.
 7. Click the **Start attack** button to begin the scan.
 
 ## References
